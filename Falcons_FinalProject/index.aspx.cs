@@ -13,5 +13,25 @@ namespace Falcons_FinalProject
         {
 
         }
+
+        protected void cdmClickForAnswer_Click(object sender, EventArgs e)
+        {
+            elmorels calculate = new elmorels();
+            string SoultionSelector = ddlSolutionSelector.SelectedValue;
+            string BasicCalc = "Basic Calculator";
+            string Sudoku = "Sudoku Solver";
+            if (SoultionSelector == BasicCalc)
+            {
+                int number = calculate.Calculate("2+1");
+                lblShowSolution.Text = "The Basic Calculator added up 2+1 which equals " + number.ToString();
+            }
+            else
+            {
+            if(SoultionSelector == Sudoku)
+                {
+                    lblShowSolution.Text = "Sudoku solution is";
+                }
+            }
+        }
     }
 }

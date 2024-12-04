@@ -5,8 +5,8 @@
 # Due Date:12/10/2024
 # Course: IS 3050
 # Semester/Year:fall 2024
-# Brief Description: 
-# Citations:
+# Brief Description: This Calculator takes a basic problem and solves it
+# Citations: Stacked overflow, ChatGPT for code for Calc solver,InClass_2024_11_19_IS3050_001
 */
 using System;
 using System.Collections.Generic;

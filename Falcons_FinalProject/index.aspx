@@ -1,4 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Falcons_FinalProject.index" %>
+﻿<!--
+# Name:Luke Elmore,Nate Hoang
+# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date:12/10/2024
+# Course: IS 3050
+# Semester/Year:fall 2024
+# Brief Description: This makes a table with 2 rows and 2 columns to be able to put the problems and solutions in
+# Citations: Stacked overflow,InClass_2024_11_19_IS3050_001
+-->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Falcons_FinalProject.index" %>
 
 <!DOCTYPE html>
 
@@ -15,6 +25,7 @@
                         <asp:DropDownList ID="ddlSolutionSelector" runat="server" >
                             <asp:ListItem>Basic Calculator</asp:ListItem>
                             <asp:ListItem>Sudoku Solver</asp:ListItem>
+                            <asp:ListItem>Other</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                     <td>
@@ -30,7 +41,7 @@
                     </td>
                 </tr>
                </table>
-              
+            
             
         </div>
     </form>

@@ -6,8 +6,8 @@
 # Due Date:12/10/2024
 # Course: IS 3050
 # Semester/Year:fall 2024
-# Brief Description: 
-# Citations:
+# Brief Description: This takes a sudoku puzzle and will solve it 
+# Citations: ChatGPT for the code of the sudoku puzzle, Stacked overflow
 */using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -104,16 +104,22 @@ namespace Falcons_FinalProject
         }
 
         // Helper function to print the board
-        public static void PrintBoard(char[,] board)
+        public static string PrintBoard(char[,] board)
         {
+            string html = "<table border='1' style='border-collapse: collapse;'>";
+
             for (int i = 0; i < 9; i++)
             {
+                html += "<tr>";
                 for (int j = 0; j < 9; j++)
                 {
-                    Console.Write(board[i, j] + " ");
+                    html += "<td style='width: 30px; height: 30px; text-align: center;'>" + (board[i, j] == '.' ? "&nbsp;" : board[i, j].ToString()) + "</td>";
                 }
-                Console.WriteLine();
+                html += "</tr>";
             }
+
+            html += "</table>";
+            return html;
         }
 
         public static void Main(string[] args)

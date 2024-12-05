@@ -1,6 +1,6 @@
 ﻿<!--
-# Name:Luke Elmore,Nate Hoang
-# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu
+# Name:Luke Elmore,Nate Hoang,Ray Happel
+# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu,happelrc@mail.uc.edu
 # Assignment Title: Final Project
 # Due Date:12/10/2024
 # Course: IS 3050
@@ -25,16 +25,17 @@
                         <asp:DropDownList ID="ddlSolutionSelector" runat="server" >
                             <asp:ListItem>Basic Calculator</asp:ListItem>
                             <asp:ListItem>Sudoku Solver</asp:ListItem>
-                            <asp:ListItem>Other</asp:ListItem>
+                            <asp:ListItem>Wildcard Matching</asp:ListItem>
+                            <asp:ListItem>Distinct Subsequences</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                     <td>
-                        <asp:Button ID="cdmClickForAnswer" runat="server" Text="Click for solution" OnClick="cdmClickForAnswer_Click" />
+                        <asp:Button ID="cmdClickForAnswer" runat="server" Text="Click for solution" OnClick="cmdClickForAnswer_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="llbSolution" runat="server" Text="Solution"></asp:Label>
+                        <asp:Label ID="lblSolution" runat="server" Text="Solution"></asp:Label>
                     </td>
                     <td>
                         <asp:Label ID="lblShowSolution" runat="server" Text=" "></asp:Label>

@@ -1,6 +1,6 @@
 ﻿/*
-# Name:Luke Elmore,Nate Hoang
-# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu
+# Name:Luke Elmore,Nate Hoang,Ray Happel
+# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu,happelrc@mail.uc.edu
 # Assignment Title: Final Project
 # Due Date:12/10/2024
 # Course: IS 3050
@@ -27,14 +27,17 @@ namespace Falcons_FinalProject
 
         }
 
-        protected void cdmClickForAnswer_Click(object sender, EventArgs e)
+        protected void cmdClickForAnswer_Click(object sender, EventArgs e)
         {
             elmorels calculate = new elmorels();
             hoangnd Sudoku1 = new hoangnd();
+            happelrc Wildcard = new happelrc();
+            iqbalza Distinct = new iqbalza();
             string SolutionSelector = ddlSolutionSelector.SelectedValue;
             string BasicCalc = "Basic Calculator";
             string Sudoku = "Sudoku Solver";
-            string Other = "Other";
+            string WildcardMatching = "Wildcard Matching";
+            string DistinctSubsequences = "Distinct Subsequences";
 
             if (SolutionSelector == BasicCalc)
             {
@@ -62,9 +65,20 @@ namespace Falcons_FinalProject
                 string solvedBoardHtml = hoangnd.PrintBoard(board);
                 lblShowSolution.Text = "Sudoku solution solves a Sudoku puzzle: " + solvedBoardHtml;
             }
-            else if(SolutionSelector == Other) 
+            else if (SolutionSelector == WildcardMatching)
             {
-                lblShowSolution.Text ="Other";
+
+                string s = "aa";
+                string p = "a";
+                bool Wild = Wildcard.IsMatch(s, p);
+                lblShowSolution.Text = "The Wildcard Matching will try to see if the string match, String s is 'aa' and string p is 'a', Do these strings Match? " + Wild;
+            }
+            else if (SolutionSelector == DistinctSubsequences)
+            {
+                string s = "rabbbit";
+                 string t = "rabbit";
+                int num = Distinct.NumDistinct(s,t);
+                lblShowSolution.Text = "s = rabbbit and t = rabbit and there are " + num + " ways you can generate \"rabbit\" from s. rabbbit\r\nrabbbit\r\nrabbbit";
             }
 
         }

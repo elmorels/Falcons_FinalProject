@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+# Name:Ray Happel
+# email:happelrc@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date:12/10/2024
+# Course: IS 3050
+# Semester/Year:fall 2024
+# Brief Description: Given an input string (s) and a pattern (p), 
+implement wildcard pattern matching with support for '?' and '*'
+# Citations: ChatGPT for the code of the Wildcard Matching, Stacked overflow
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

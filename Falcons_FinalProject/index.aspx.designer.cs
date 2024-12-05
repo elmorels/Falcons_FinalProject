@@ -33,22 +33,22 @@ namespace Falcons_FinalProject
         protected global::System.Web.UI.WebControls.DropDownList ddlSolutionSelector;
 
         /// <summary>
-        /// cdmClickForAnswer control.
+        /// cmdClickForAnswer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cdmClickForAnswer;
+        protected global::System.Web.UI.WebControls.Button cmdClickForAnswer;
 
         /// <summary>
-        /// llbSolution control.
+        /// lblSolution control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label llbSolution;
+        protected global::System.Web.UI.WebControls.Label lblSolution;
 
         /// <summary>
         /// lblShowSolution control.

@@ -42,6 +42,24 @@ namespace Falcons_FinalProject
         protected global::System.Web.UI.WebControls.Button cmdClickForAnswer;
 
         /// <summary>
+        /// lblDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDescription;
+
+        /// <summary>
+        /// lblShowDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblShowDescription;
+
+        /// <summary>
         /// lblSolution control.
         /// </summary>
         /// <remarks>

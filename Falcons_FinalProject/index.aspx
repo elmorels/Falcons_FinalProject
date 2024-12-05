@@ -1,6 +1,6 @@
 ﻿<!--
-# Name:Luke Elmore,Nate Hoang,Ray Happel
-# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu,happelrc@mail.uc.edu
+# Name:Luke Elmore,Nate Hoang,Ray Happel,Zoha Iqbal
+# email:elmorels@mail.uc.edu,hoangnd@mail.uc.edu,happelrc@mail.uc.edu,iqbalza@mail.uc.edu
 # Assignment Title: Final Project
 # Due Date:12/10/2024
 # Course: IS 3050
@@ -31,6 +31,14 @@
                     </td>
                     <td>
                         <asp:Button ID="cmdClickForAnswer" runat="server" Text="Click for solution" OnClick="cmdClickForAnswer_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblDescription" runat="server" Text="Description"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblShowDescription" runat="server" Text=" "></asp:Label>
                     </td>
                 </tr>
                 <tr>

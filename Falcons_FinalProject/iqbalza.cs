@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+# Name:Zoha Iqbal
+# email:iqbalza@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date:12/10/2024
+# Course: IS 3050
+# Semester/Year:fall 2024
+# Brief Description: This takes two words and will tell you how many ways you can make that word with the main word 
+# Citations: ChatGPT for the code of the Distinct Subsequences, Stacked overflow
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
